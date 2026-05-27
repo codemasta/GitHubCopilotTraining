@@ -11,7 +11,7 @@ aka.ms/awesome-gh-cli-course
 
 Check : awesome copilot website.
 
-The @ let's us point to specific files on our code base.
+The @ let's us point to specific files or even folders on our code base which provides more context to the LLM.
 
 > Review @samples/book_app.py for code quality issues and suggest improvements.
 
@@ -26,6 +26,20 @@ Programmatic mode
 
 To see all commands
 >> /help 
+>> /help providers
 
 To research deeply on a topic use the research
 >> /research 
+
+Context Usage
+>> context 
+
+To continue the last we did
+>> copilot --continue
+>> /resume
+
+To get back to a place in a session, it's technical UNDO
+>> /rewind
+
+To continue from phone or any other device
+>> /remote
